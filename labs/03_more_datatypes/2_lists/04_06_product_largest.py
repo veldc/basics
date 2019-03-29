@@ -9,3 +9,11 @@ that we haven't looked at yet. See if you can figure it out, otherwise
 come back to this task after you have learned about loops)
 
 '''
+NumbList = []
+largest = 0
+for i in range(9):
+    NumbList.append(int(input("Enter a number")))
+    if NumbList[i]>largest:
+        largest = NumbList[i]
+print(NumbList)
+print(largest)

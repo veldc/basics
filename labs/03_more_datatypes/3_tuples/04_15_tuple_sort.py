@@ -6,3 +6,9 @@ unsorted_list = [('first_element', 4), ('second_element', 2), ('third_element', 
 sorted_list = [('second_element', 2), ('first_element', 4), ('third_element', 6)]
 
 '''
+
+unsorted_list = [('first_element', 4), ('second_element', 2), ('third_element', 6)]
+print(unsorted_list)
+sorted_list = unsorted_list
+sorted_list.sort(key=lambda sorted_list: sorted_list[1])
+print(sorted_list)

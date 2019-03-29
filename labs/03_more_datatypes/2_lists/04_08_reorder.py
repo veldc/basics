@@ -7,3 +7,9 @@ Example input: 1,2,3,4,5,6,7,8,9,10
 Example output: 2,4,6,8,10,9,7,5,3,1
 
 '''
+
+
+List = list(input("Enter 10 numbers: "))
+print(List)
+print(List[1],",",List[5],List[7],List[9])
+
