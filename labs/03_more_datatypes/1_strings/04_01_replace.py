@@ -8,3 +8,9 @@ Result: #ore python progra##ing please
 
 '''
 
+
+OrgInput = input("Enter a sentence: ")
+Charac = input("Enter charactar to replace")
+SymbolInput = input("Enter symbol to replace")
+ModInput = OrgInput.replace(Charac, SymbolInput)
+print(ModInput)

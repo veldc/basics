@@ -7,3 +7,8 @@ Letter input: o
 Result: 4
 
 '''
+
+st = input("Enter sentence: ")
+letter = input("Enter letter: ")
+occ = st.find(letter)
+print(occ)

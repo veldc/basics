@@ -4,7 +4,7 @@
 2 - Using the interpreter, print "hello world!" to the console.
 
 3 - Explore the interpreter.
-	- Execute lines with syntax error and see what the response is.
+	- Execute lines with syntax error and see what the response is.R
         * What happens if you leave out a quotation or parentheses?
         * How helpful are the error messages?
 	- Use the help() function to explore what you can do with the interpreter.
@@ -14,5 +14,7 @@
 	- Calculate how many seconds are in a year.
 
 '''
-print("hello world")
-print(hello world￿)
+
+Num = 365*24*60*60
+print (Num)
+print(1)
